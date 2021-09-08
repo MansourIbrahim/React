@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.title{
+  margin: 25px auto 50px;
+}
+
+.city-card{
+  border: 1.5px solid;
+  margin: 25px auto;
+  width: 450px;
+  text-align: left;
+  padding-left: 25px;
+}  
