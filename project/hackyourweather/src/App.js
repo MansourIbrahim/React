@@ -1,6 +1,6 @@
 import data from './city-weather.json';
-import CityDataCard from './cityDataCard';
-import { searchForm } from './searchForm';
+import CityDataCard from './CityDataCard';
+import { SearchForm } from './searchForm';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <header className="title"><h2>Weather</h2></header>
       <main>
         {/* { data.map( (city) => <CityDataCard props={city}/> ) } */}
-        <searchForm />
+        <SearchForm />
       </main>
     </div>
   );
