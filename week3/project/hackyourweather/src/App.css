@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  margin: 25px auto 50px;
+}
+
+.city-card {
+  border: 1.5px solid;
+  margin: 25px auto;
+  width: 350px;
+  text-align: left;
+  padding-left: 25px;
+  overflow: auto;
+}
+
+.text-container {
+  width: 250px;
+  float: left;
+}
+
+.img-container {
+  width: 40px;
+  margin: 10px;
+  padding: 10px;
+  float: right;
+}
+
+img {
+  width: 100%;
+}
+img:hover {
+  cursor: pointer;
+}
